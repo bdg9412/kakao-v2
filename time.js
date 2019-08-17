@@ -1,5 +1,5 @@
 const timecontainer = document.querySelector(".timetable");
-    clocktitle = timecontainer.querySelector(".status-bar__clock");
+    clocktitle = timecontainer.querySelector("span");
 
 function getTime(){
     const date = new Date();
